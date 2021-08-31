@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://telegra.ph/file/59a5c9e150cabe909446f.jpg">
+  <a href="https://telegra.ph/file/233805169085716287914.jpg">
      <img height="200px" src="https://telegra.ph/file/59a5c9e150cabe909446f.jpg">
   </a>3&
 </p>
@@ -37,7 +37,7 @@ Click the below button to watch the video tutorial on deploying
 
 ### Deploy To Heroku 📡</h4>
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Mehmet5506/VoiceTelegram3.2"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/EkimozSupport/jsjsj"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
 
 ###  GET STRING SESSION FROM REPL RUN
 
