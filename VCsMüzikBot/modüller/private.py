@@ -14,22 +14,22 @@ def _start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Beni Grubunuza Ekleyin ➕", url=f"https://t.me/Mp3dinleme_Bot?startgroup=true")],
+                        "➕ Beni Grubunuza Ekleyin ➕", url=f"https://t.me/Ellycarlmusicbot?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "👥 Group", url=f"https://t.me/sohbetneresi"), 
+                        "👥 Destek Group", url=f"https://t.me/Smailesi"), 
                     InlineKeyboardButton(
-                        "Sahip 📢", url=f"https://t.me/Mahoaga"), 
+                        "Sahip 📢", url=f"https://t.me/Kizilsancaksahibi"), 
                 ],[
                     InlineKeyboardButton(
-                        "🔥 Proje Kanalı🔥", url=f"https://t.me/sohbetdestek"), 
+                        "🔥 Proje Kanalı🔥", url=f"https://t.me/ucretlibotlar"), 
                 ]
             ]
         ),
         reply_to_message_id=message.message_id
         )
 
-@Client.on_message(filters.command(["start","startMp3dinleme_bot"]) & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start","startellycarlmusicbot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
         f"""**Müzik botu çevrimiçi.**""",
@@ -37,7 +37,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support Chat", url=f"https://t.me/sohbetdestek"
+                        "💬 Support Chat", url=f"https://t.me/smailesi"
                     )
                 ],    
                 [    
@@ -85,10 +85,10 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = f"https://t.me/Djbyboss"
         button = [
-            [InlineKeyboardButton("➕ Add me to your Group ➕", url=f"https://t.me/Mpdinleme_Bot?startgroup=true")],
-            [InlineKeyboardButton(text = '👥 Group', url=f"https://t.me/Sohbetneresi"),
-             InlineKeyboardButton(text = 'Channel 📢', url=f"https://t.me/sohbetdestek")],
-            [InlineKeyboardButton(text = '🔥 Source Code 🔥', url=f"https://github.com/Mehmet5506/VoiceTelegram3.2")],
+            [InlineKeyboardButton("➕ Add me to your Group ➕", url=f"https://t.me/Ellycarlmusicbot?startgroup=true")],
+            [InlineKeyboardButton(text = '👥 Group', url=f"https://t.me/Smailesi"),
+             InlineKeyboardButton(text = 'Channel 📢', url=f"https://t.me/ucretlibotlar")],
+            [InlineKeyboardButton(text = '🔥 Source Code 🔥', url=f"https://t.me/kizilsancaksahibi")],
             [InlineKeyboardButton(text = '◀️ Back', callback_data = f"help+{pos-1}")]
         ]
     else:
@@ -100,15 +100,15 @@ def map(pos):
         ]
     return button
 
-@Client.on_message(filters.command(["help","helpMp3dinleme_Bot"]) & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command(["help","helpellycarlmusicbot"]) & ~filters.private & ~filters.channel)
 async def ghelp(_, message: Message):
     await message.reply_text(
-        f"""**Merhaba efendim. !Ben @Mahoaga Tarafından yapılmış müzik botu! Telgraf gruplarının ve kanallarının sesli sohbetlerinde müzik çalabilirim.**""",
+        f"""**Merhaba efendim. !Ben @ucretlibotlar Tarafından yapılmış müzik botu! Telgraf gruplarının ve kanallarının sesli sohbetlerinde müzik çalabilirim ve video oynatabilirim.**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Yardım için tıklayınız", url=f"https://t.me/sohbetdestek?start"
+                        "Yardım için tıklayınız", url=f"https://t.me/smailesi?start"
                     )
                 ]
             ]
