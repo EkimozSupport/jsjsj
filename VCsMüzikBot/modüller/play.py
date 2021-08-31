@@ -690,7 +690,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
                         InlineKeyboardButton(text="İndir 📥", url=f"{dlurl}"),
                     ],
-                    [InlineKeyboardButton(text="owner", callback_data="https://t.me/Mahoaga")],
+                    [InlineKeyboardButton(text="owner", callback_data="https://t.me/kizilsancaksahibi")],
                 ]
             )
             requested_by = message.from_user.first_name
@@ -1128,7 +1128,7 @@ async def jiosaavn(client: Client, message_: Message):
                     text="Join Updates Channel", url=f"https://t.me/{updateschannel}"
                 )
             ],
-            [InlineKeyboardButton(text="owner", callback_data="https://t.me/abhinasroy")],
+            [InlineKeyboardButton(text="owner", callback_data="https://t.me/kizilsancaksahibi")],
         ]
     )
     file_path = await convert(wget.download(slink))
